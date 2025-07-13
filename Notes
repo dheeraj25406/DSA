@@ -1,1 +1,18 @@
+## Arrays – Core Patterns
 
+### Two Pointers
+- Use when traversing from both ends to check some codition or swap the numbers.
+- Example: Move Zeroes, Reverse Array, Palindrome check
+
+### Min-so-far
+- Track running minimum and calculate max profit.
+- Example: Best Time to Buy and Sell Stock
+
+### Kadane’s Algorithm
+- For maximum subarray sum problems (subarray must be contiguous).
+- Sum is the total of all elements till now and current value.
+- Maxi is the maximum of sum and maxi.
+- Reset sum to current number if it drops below it.
+
+### Brute Force
+- Good for initial understanding; optimize later with patterns.
