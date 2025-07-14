@@ -7,8 +7,8 @@
 
 ## ✅ Weekly Progress Tracker
 
-| Week | Topic                     | Status   |
-|------|---------------------------|----------|
+| Week | Topic                     | Status         |
+|------|---------------------------|----------------|
 | 1    | Arrays                    | ✅ In Progress |
 | 2    | Sorting + Strings         | 🔲 Not Started |
 | 3    | Linked List               | 🔲 Not Started |
@@ -20,6 +20,7 @@
 ---
 
 ## 📁 Folder Structure
+
 DSA/
 ├── Arrays/
 ├── Strings/
@@ -36,12 +37,15 @@ DSA/
 
 ## 🔍 Problems Completed So Far
 
-| #   | Folder   | Problem                              | Link                                           |
-|-----|----------|---------------------------------------|------------------------------------------------|
-| 1   | Arrays   | Two Sum                              | [LeetCode](https://leetcode.com/problems/two-sum/) |
+| #   | Folder   | Problem                              | Link                                                                 |
+|-----|----------|---------------------------------------|----------------------------------------------------------------------|
+| 1   | Arrays   | Two Sum                              | [LeetCode](https://leetcode.com/problems/two-sum/)                   |
 | 2   | Arrays   | Best Time to Buy and Sell Stock      | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-| 3   | Arrays   | Move Zeroes                          | [LeetCode](https://leetcode.com/problems/move-zeroes/) |
-| 4   | Arrays   | Maximum Subarray (Kadane’s)          | [LeetCode](https://leetcode.com/problems/maximum-subarray/) |
+| 3   | Arrays   | Move Zeroes                          | [LeetCode](https://leetcode.com/problems/move-zeroes/)               |
+| 4   | Arrays   | Maximum Subarray (Kadane’s)          | [LeetCode](https://leetcode.com/problems/maximum-subarray/)          |
+| 5   | Arrays   | Next Permutation                     | [LeetCode](https://leetcode.com/problems/next-permutation/)          |
+| 6   | Arrays   | Rotate Array                         | [LeetCode](https://leetcode.com/problems/rotate-array/)              |
+| 7   | Arrays   | Merge Intervals                      | [LeetCode](https://leetcode.com/problems/merge-intervals/)           |
 
 ---
 
@@ -56,7 +60,3 @@ DSA/
 ## 💡 Motivation
 
 > Focused and structured DSA prep builds strong problem-solving foundations and a clean GitHub portfolio — perfect for interviews and resume visibility.
-
-
-
-
