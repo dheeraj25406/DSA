@@ -37,15 +37,19 @@ DSA/
 
 ## 🔍 Problems Completed So Far
 
-| #   | Folder   | Problem                              | Link                                                                 |
-|-----|----------|---------------------------------------|----------------------------------------------------------------------|
-| 1   | Arrays   | Two Sum                              | [LeetCode](https://leetcode.com/problems/two-sum/)                   |
-| 2   | Arrays   | Best Time to Buy and Sell Stock      | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
-| 3   | Arrays   | Move Zeroes                          | [LeetCode](https://leetcode.com/problems/move-zeroes/)               |
-| 4   | Arrays   | Maximum Subarray (Kadane’s)          | [LeetCode](https://leetcode.com/problems/maximum-subarray/)          |
-| 5   | Arrays   | Next Permutation                     | [LeetCode](https://leetcode.com/problems/next-permutation/)          |
-| 6   | Arrays   | Rotate Array                         | [LeetCode](https://leetcode.com/problems/rotate-array/)              |
-| 7   | Arrays   | Merge Intervals                      | [LeetCode](https://leetcode.com/problems/merge-intervals/)           |
+| #   | Folder               | Problem                              | Link                                                                 |
+|-----|----------------------|---------------------------------------|----------------------------------------------------------------------|
+| 1   | Arrays               | Two Sum                              | [LeetCode](https://leetcode.com/problems/two-sum/)                   |
+| 2   | Arrays               | Best Time to Buy and Sell Stock      | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 3   | Arrays               | Move Zeroes                          | [LeetCode](https://leetcode.com/problems/move-zeroes/)               |
+| 4   | Arrays               | Maximum Subarray (Kadane’s)          | [LeetCode](https://leetcode.com/problems/maximum-subarray/)          |
+| 5   | Arrays               | Next Permutation                     | [LeetCode](https://leetcode.com/problems/next-permutation/)          |
+| 6   | Arrays               | Rotate Array                         | [LeetCode](https://leetcode.com/problems/rotate-array/)              |
+| 7   | Arrays               | Merge Intervals                      | [LeetCode](https://leetcode.com/problems/merge-intervals/)           |
+| 8   | Arrays               | Insert Interval                      | [LeetCode](https://leetcode.com/problems/insert-interval/)           |
+| 9   | Binary_Search_Trees  | Search in Rotated Sorted Array       | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+| 10  | Binary_Search_Trees  | Single Element in Sorted Array       | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) |
+| 11  | Binary_Search_Trees  | Koko Eating Bananas                  | [LeetCode](https://leetcode.com/problems/koko-eating-bananas/)       |
 
 ---
 
