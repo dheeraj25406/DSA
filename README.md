@@ -51,6 +51,22 @@ DSA/
 | 10  | Binary_Search_Trees  | Single Element in Sorted Array       | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) |
 | 11  | Binary_Search_Trees  | Koko Eating Bananas                  | [LeetCode](https://leetcode.com/problems/koko-eating-bananas/)       |
 
+
+---
+
+## 📂 Extra LeetCode Problems
+
+This folder contains additional problems I've solved outside of Striver’s DSA Sheet — covering a wide range of topics and concepts.
+
+| File                                 | Problem Title                    | LeetCode Link                                                        |
+|--------------------------------------|----------------------------------|----------------------------------------------------------------------|
+| `LC_135_Candy.py`                    | Candy                            | [🔗 Link](https://leetcode.com/problems/candy)                       |
+| `LC_128_Longest_Consecutive_Sequence.py` | Longest Consecutive Sequence | [🔗 Link](https://leetcode.com/problems/longest-consecutive-sequence)|
+| `LC_55_Jump_Game.py`                 | Jump Game                        | [🔗 Link](https://leetcode.com/problems/jump-game)                   |
+
+➡️ More problems will be added daily.
+
+
 ---
 
 ## 📚 References
