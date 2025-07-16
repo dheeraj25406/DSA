@@ -22,20 +22,20 @@
 ## 📁 Folder Structure
 
 DSA/
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── StackQueue/
-├── Binary_Search_Trees/
-├── BST_Heap/
-├── Graph_DP/
-├── Notes/
+├── Arrays/  
+├── Strings/  
+├── LinkedList/  
+├── StackQueue/  
+├── Binary_Search_Trees/  
+├── BST_Heap/  
+├── Graph_DP/  
+├── Extra_LeetCode/  
+├── Notes/  
 └── README.md
-
 
 ---
 
-## 🔍 Problems Completed So Far
+## 🔍 Problems Completed So Far (Striver Sheet)
 
 | #   | Folder               | Problem                              | Link                                                                 |
 |-----|----------------------|---------------------------------------|----------------------------------------------------------------------|
@@ -46,11 +46,12 @@ DSA/
 | 5   | Arrays               | Next Permutation                     | [LeetCode](https://leetcode.com/problems/next-permutation/)          |
 | 6   | Arrays               | Rotate Array                         | [LeetCode](https://leetcode.com/problems/rotate-array/)              |
 | 7   | Arrays               | Merge Intervals                      | [LeetCode](https://leetcode.com/problems/merge-intervals/)           |
-| 8   | Arrays               | Insert Interval                      | [LeetCode](https://leetcode.com/problems/insert-interval/)           |
-| 9   | Binary_Search_Trees  | Search in Rotated Sorted Array       | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
-| 10  | Binary_Search_Trees  | Single Element in Sorted Array       | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) |
-| 11  | Binary_Search_Trees  | Koko Eating Bananas                  | [LeetCode](https://leetcode.com/problems/koko-eating-bananas/)       |
-
+| 8   | Arrays               | Set Matrix Zeroes                    | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)         |
+| 9   | Arrays               | Pascal’s Triangle                    | [LeetCode](https://leetcode.com/problems/pascals-triangle/)          |
+| 10  | Arrays               | Search a 2D Matrix                   | [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)        |
+| 11  | Binary_Search_Trees  | Search in Rotated Sorted Array       | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+| 12  | Binary_Search_Trees  | Single Element in Sorted Array       | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) |
+| 13  | Binary_Search_Trees  | Koko Eating Bananas                  | [LeetCode](https://leetcode.com/problems/koko-eating-bananas/)       |
 
 ---
 
@@ -58,14 +59,15 @@ DSA/
 
 This folder contains additional problems I've solved outside of Striver’s DSA Sheet — covering a wide range of topics and concepts.
 
-| File                                 | Problem Title                    | LeetCode Link                                                        |
-|--------------------------------------|----------------------------------|----------------------------------------------------------------------|
-| `LC_135_Candy.py`                    | Candy                            | [🔗 Link](https://leetcode.com/problems/candy)                       |
-| `LC_128_Longest_Consecutive_Sequence.py` | Longest Consecutive Sequence | [🔗 Link](https://leetcode.com/problems/longest-consecutive-sequence)|
-| `LC_55_Jump_Game.py`                 | Jump Game                        | [🔗 Link](https://leetcode.com/problems/jump-game)                   |
+| File                                     | Problem Title                    | LeetCode Link                                                        |
+|------------------------------------------|----------------------------------|----------------------------------------------------------------------|
+| `LC_135_Candy.py`                        | Candy                            | [🔗 Link](https://leetcode.com/problems/candy)                       |
+| `LC_128_Longest_Consecutive_Sequence.py` | Longest Consecutive Sequence     | [🔗 Link](https://leetcode.com/problems/longest-consecutive-sequence)|
+| `LC_55_Jump_Game.py`                     | Jump Game                        | [🔗 Link](https://leetcode.com/problems/jump-game)                   |
+| `LC_141_Linked_List_Cycle.py`            | Linked List Cycle                | [🔗 Link](https://leetcode.com/problems/linked-list-cycle)           |
+| `LC_876_Middle_of_the_Linked_List.py`    | Middle of the Linked List        | [🔗 Link](https://leetcode.com/problems/middle-of-the-linked-list)   |
 
 ➡️ More problems will be added daily.
-
 
 ---
 
