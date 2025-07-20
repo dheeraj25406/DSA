@@ -7,15 +7,18 @@
 
 ## ✅ Weekly Progress Tracker
 
+## ✅ Weekly Progress Tracker
+
 | Week | Topic                     | Status         |
 |------|---------------------------|----------------|
-| 1    | Arrays                    | ✅ In Progress |
+| 1    | Arrays                    | ✅ Completed   |
 | 2    | Sorting + Strings         | 🔲 Not Started |
 | 3    | Linked List               | ✅ In Progress |
 | 4    | Stack + Queue             | 🔲 Not Started |
 | 5    | Binary Search + Trees     | 🔲 Not Started |
 | 6    | BST + Heap                | 🔲 Not Started |
 | 7    | Graph + DP Basics         | 🔲 Not Started |
+
 
 ---
 
