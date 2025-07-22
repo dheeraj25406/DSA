@@ -1,0 +1,47 @@
+// Problem: 2. Add Two Numbers  
+// Link: https://leetcode.com/problems/add-two-numbers/  
+// Time Complexity: O(max(m, n))  
+// Space Complexity: O(max(m, n))  
+// Approach: Traverse both lists while maintaining carry; build the new list digit by digit.
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* dummy=new ListNode(0);
+        ListNode* ans=dummy;
+        ListNode* a=l1;
+        ListNode* b=l2;
+        int cnt=0;
+        while(a!=NULL || b!=NULL || cnt){
+            int sum=0;
+            if(a!=NULL) {
+                sum+=a->val;
+                a=a->next;
+            }
+            if(b!=NULL){
+                sum+=b->val;
+                b=b->next;
+            } 
+            sum+=cnt;
+            cnt=sum/10;
+            ListNode* temp=new ListNode(sum%10);
+            ans->next=temp;
+            ans=ans->next;
+            
+
+    }
+        return dummy->next;
+    }
+
+
+};
