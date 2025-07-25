@@ -1,0 +1,47 @@
+// Problem: 18. 4Sum  
+// Link: https://leetcode.com/problems/4sum/  
+// Time Complexity: O(n^3)  
+// Space Complexity: O(1) (excluding result set)  
+// Approach: Fix two and apply 2-pointer approach
+
+
+class Solution {
+public:
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        sort(nums.begin(),nums.end());
+        set<vector<long long int>> s;
+        long long int n=nums.size();
+        if(n<4){
+            return {};
+        }
+        for(long long int i=0;i<nums.size()-3;i++){
+            for(long long int j=i+1;j<nums.size()-2;j++){
+                long long int st=j+1,en=n-1;
+                long long int temp=(long long)target-nums[i]-nums[j];
+                while(st<en){
+                    if(nums[st]+nums[en]<temp)  st++;
+                    else if(nums[st]+nums[en]==temp){
+                        s.insert({nums[i],nums[j],nums[st],nums[en]});
+                        while(st<en && nums[st]==nums[st+1])    st++;
+                        while(st<en && nums[en]==nums[en-1])    en--;
+                        st++;
+                        en--;
+                    }
+                    else{
+                        en--;
+                    }
+                }
+
+            }
+        }
+
+        vector<vector<int>> ans;
+        for(auto c:s){
+            ans.push_back({(int)c[0], (int)c[1], (int)c[2], (int)c[3]});
+        }
+        return ans;
+
+        
+        
+    }
+};
