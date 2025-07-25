@@ -1,0 +1,24 @@
+// Problem: 1. Two Sum  
+// Link: https://leetcode.com/problems/two-sum/  
+// Time Complexity: O(n)  
+// Space Complexity: O(n)  
+// Approach: Use hashmap to store and check complement
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> m;
+        int n=nums.size();
+        set<vector<int>>s;
+
+        for(int i=0;i<nums.size();i++){
+            int temp=target-nums[i];
+            if(m.count(temp)){
+                return {m[temp],i};
+            }
+            m[nums[i]]=i;
+
+        }
+        return {};
+    }
+};
