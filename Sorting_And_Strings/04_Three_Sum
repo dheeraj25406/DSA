@@ -1,0 +1,37 @@
+// Problem: 15. 3Sum  
+// Link: https://leetcode.com/problems/3sum/  
+// Time Complexity: O(n^2)  
+// Space Complexity: O(1) (excluding result set)  
+// Approach: Sort, fix one, use 2 pointers
+
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        set<vector<int>> s;
+        vector<vector<int>> result;
+        int n=nums.size();
+        for(int i=0;i<n-2;i++){
+            int j=i+1;
+            int k=n-1;
+            while(k>j){
+                if(nums[i]+nums[j]+nums[k]>0) k--;
+                else if(nums[i]+nums[j]+nums[k]==0){
+                    s.insert({nums[i],nums[j],nums[k]});
+                    while(j<k && nums[j]==nums[j+1])    j++;
+                    while(j<k && nums[k]==nums[k-1])    k--;
+                    
+                    j++;
+                    k--;
+
+                }
+                else    j++;
+            }
+        }
+        for(auto c:s){
+            result.push_back(c);
+        }
+        return result;
+    }
+        
+};
