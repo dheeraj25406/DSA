@@ -21,17 +21,20 @@
 
 ## 📁 Folder Structure
 
-DSA/
-├── Arrays/
-├── Binary_Search_Trees/
-├── Extra_LeetCode/
-├── LinkedList/
-├── Sorting_And_Strings/
-├── Stacks_And_Queues/
-├── BST_Heap/
-├── Graph_DP/
-├── Notes/
-└── README.md
+## 📁 Folder Structure
+
+- `DSA/`
+  - `Arrays/`
+  - `Binary_Search_Trees/`
+  - `Extra_LeetCode/`
+  - `LinkedList/`
+  - `Sorting_And_Strings/`
+  - `Stacks_And_Queues/`
+  - `BST_Heap/`
+  - `Graph_DP/`
+  - `Notes/`
+  - `README.md`
+
 ---
 
 ## 🔍 Problems Completed So Far (Striver Sheet + Core Extras)
