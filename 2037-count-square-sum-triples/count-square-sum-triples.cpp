@@ -1,13 +1,15 @@
 class Solution {
 public:
     int countTriples(int n) {
-        long long ans=0;
-        for(int i=1;i<n;i++){
-            for(int j=1;j<n;j++){
-                long long x=i*i+j*j;
-                if(((long long)sqrtl(x))*((long long)sqrtl(x))==x && x<=n*n){
-                    ans++;
-                }
+        unordered_set<int> s;
+        for(int i=1;i<=n;i++) s.insert(i*i);
+        int ans=0;
+        for(int c=1;c<=n;c++){
+            int cc=c*c;
+            for(int a=1;a<=n;a++){
+                int x=cc-a*a;
+                if(x<=0) break;
+                if(s.count(x)) ans++;
             }
         }
         return ans;
