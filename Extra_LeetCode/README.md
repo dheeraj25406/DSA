@@ -1,24 +1,40 @@
-<h2><a href="https://leetcode.com/problems/find-bottom-left-tree-value">Find Bottom Left Tree Value</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given the <code>root</code> of a binary tree, return the leftmost value in the last row of the tree.</p>
+# 📘 Extra LeetCode Solutions
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/12/14/tree1.jpg" style="width: 302px; height: 182px;" />
-<pre>
-<strong>Input:</strong> root = [2,1,3]
-<strong>Output:</strong> 1
-</pre>
+This folder contains all the **LeetCode problems I solve outside the main Striver's Sheet track**.  
+It includes:
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/12/14/tree2.jpg" style="width: 432px; height: 421px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,null,5,6,null,null,7]
-<strong>Output:</strong> 7
-</pre>
+- **LeetCode Problem of the Day (POTD)**
+- Extra/random practice problems
+- Contest problems I revisit
+- Any question I solve to improve intuition and pattern recognition
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+---
 
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
-	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+## 🔍 Purpose
+
+This directory serves as a log of my additional LeetCode practice.  
+I use it to:
+
+- Strengthen concepts through extra problems
+- Build consistency with daily POTD
+- Explore new patterns and edge cases
+- Track growth outside structured sheets
+
+---
+
+## 🎯 Goals
+
+- Maintain a clean archive of solved LeetCode questions
+- Provide quick reference material for revision
+- Document progress beyond sheet-based practice
+- Improve accuracy, speed, and reasoning through daily and extra problems
+
+---
+
+## 🚀 How I Use This Folder
+
+- Update with **POTD** daily
+- Add problems solved during contests or random practice
+- Experiment with different approaches and compare performance
+
+---
