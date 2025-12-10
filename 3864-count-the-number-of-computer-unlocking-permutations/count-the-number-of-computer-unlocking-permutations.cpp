@@ -3,7 +3,8 @@ public:
     const int mod=1e9+7;
     long long fact(long long n){
         if(n==0)    return 1LL;
-        else    return n*(fact(n-1)%mod)%mod;;
+        else    return n*(fact(n-1)%mod)%mod;
+        ;
     }
     int countPermutations(vector<int>& c) {
         unordered_map<long long,int> m;
