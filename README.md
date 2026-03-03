@@ -1,5 +1,5 @@
 # 🧠 DSA Preparation
-### 📅 Duration: July 2024 – August 2024
+### 📅 Duration: July 2025 – Present
 ### 🎯 Goal: Build strong command over DSA by consistently solving problems from [Striver’s Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 
 ---
