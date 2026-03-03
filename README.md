@@ -5,7 +5,7 @@
 ---
 
 ## ✅ Weekly Progress Tracker
-| Week | Topic | Status |
+| Phase | Topic | Status |
 |------|---------------------------|----------------|
 | 1 | Arrays | ✅ Completed |
 | 2 | Linked List | ✅ Completed |
