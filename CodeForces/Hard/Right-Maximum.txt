@@ -1,0 +1,19 @@
+# Right Maximum
+
+- Platform: CodeForces
+- URL: https://codeforces.com/contest/2204/problem/B
+- Difficulty: Hard
+- Language: GNU G++17 7.3.0
+- Status: Accepted
+- Tags: N/A
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-07T15:20:26.897Z
+
+## Notes
+No notes added.
+
+## Solution
+```
+// No code captured. Use manual push after opening submission.
+```
