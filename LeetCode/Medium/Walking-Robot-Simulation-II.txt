@@ -1,0 +1,19 @@
+# Walking Robot Simulation II
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/walking-robot-simulation-ii/description/
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Tags: Design, Simulation
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-07T14:44:04.441Z
+
+## Notes
+No notes added.
+
+## Solution
+```
+// No code captured. Use manual push after opening submission.
+```
