@@ -8,12 +8,32 @@
 - Tags: N/A
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-07T16:49:07.818Z
+- Solved At: 2026-04-07T16:51:17.860Z
 
 ## Notes
 No notes added.
 
 ## Solution
 ```
-// No code captured. Use manual push after opening submission.
+// User function Template for C++
+
+class Solution {
+  public:
+    int cutRod(vector<int> &p) {
+        // code here
+        int n=p.size();
+        vector<vector<int>> t(n+1,vector<int>(n+1,0));
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(j>=i){
+                    t[i][j]=max(p[i-1]+t[i][j-i],t[i-1][j]);
+                }
+                else{
+                    t[i][j]=t[i-1][j];
+                }
+            }
+        }
+        return t[n][n];
+    }
+};
 ```
