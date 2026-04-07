@@ -1,19 +1,34 @@
 # Walking Robot Simulation II
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/walking-robot-simulation-ii/description/
+- URL: https://leetcode.com/problems/walking-robot-simulation-ii
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
 - Tags: Design, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-07T14:44:04.809Z
+- Solved At: 2026-04-07T14:45:03.429Z
 
 ## Notes
 No notes added.
 
 ## Solution
 ```
-// No code captured. Use manual push after opening submission.
+["Robot","step","getPos","getDir","step","step","getPos","getDir","step","step","getPos","getDir"]
+[[10,10],[5],[],[],[20],[30],[],[],[100],[2],[],[]]
+["Robot","getPos","getDir","step","step","step","getPos","getDir","step","step","getPos","getDir","step","getPos","getDir"]
+[[99,99],[],[],[100000],[50000],[25000],[],[],[1],[1],[],[],[999],[],[]]
+["Robot","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step"]
+[[2,2],[1],[],[],[1],[],[],[1],[],[],[1],[],[],[1],[],[],[1],[],[],[100000]]
+["Robot","step","step","step","step","getPos","getDir","step","step","step","step","getPos","getDir","step","step","step","step","getPos","getDir","step","step","step","step","getPos","getDir"]
+[[50,50],[10],[20],[30],[40],[],[],[50],[60],[70],[80],[],[],[90],[100],[110],[120],[],[],[130],[140],[150],[160],[],[]]
+["Robot","step","getPos","step","getDir","step","getPos","step","getDir","step","getPos","step","getDir","step","getPos","step","getDir","step","getPos","step","getDir","step","getPos","step","getDir","step","getPos","step","getDir","step"]
+[[3,4],[5],[],[10],[],[15],[],[20],[],[25],[],[30],[],[35],[],[40],[],[45],[],[50],[],[55],[],[60],[],[65],[],[70],[],[75]]
+["Robot","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step","getPos","getDir","step"]
+[[100,100],[1530],[],[],[2570],[],[],[3520],[],[],[4260],[],[],[5000],[],[],[6000],[],[],[7000],[],[],[8000],[],[],[9000],[],[],[10000],[],[],[11000],[],[],[12230]]
+["Robot","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos","step","getPos"]
+[[16,16],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[],[10],[]]
+["Robot","getPos","getDir","getDir","getPos","getPos","step","step","step","getPos","getDir","step","step","step","step","step","getPos","getDir","step","getPos","getDir","step","step","step","step","getPos"]
+[[9,4],[],[],[],[],[],[72],[19],[7],[],[],[17],[42],[24],[16],[27],[],[],[47],[],[],[5],[2],[31],[34],[]]
 ```
