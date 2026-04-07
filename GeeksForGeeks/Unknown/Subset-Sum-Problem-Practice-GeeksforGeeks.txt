@@ -1,0 +1,19 @@
+# Subset Sum Problem | Practice | GeeksforGeeks
+
+- Platform: GeeksForGeeks
+- URL: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+- Difficulty: Unknown
+- Language: Unknown
+- Status: Accepted
+- Tags: N/A
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-07T14:46:05.137Z
+
+## Notes
+No notes added.
+
+## Solution
+```
+// No code captured. Use manual push after opening submission.
+```
