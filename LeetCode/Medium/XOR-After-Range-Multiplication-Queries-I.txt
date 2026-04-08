@@ -8,7 +8,7 @@
 - Tags: Array, Divide and Conquer, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-08T14:20:50.888Z
+- Solved At: 2026-04-08T14:21:05.702Z
 
 ## Notes
 Just simulated it
