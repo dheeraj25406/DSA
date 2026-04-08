@@ -8,7 +8,7 @@
 - Tags: N/A
 - Runtime: 78 ms
 - Memory: 100 KB
-- Solved At: 2026-04-08T14:44:42.966Z
+- Solved At: 2026-04-08T14:44:52.083Z
 
 ## Notes
 Used last and Jump vectors
