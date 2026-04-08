@@ -1,19 +1,38 @@
 # XOR After Range Multiplication Queries I
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/
+- URL: https://leetcode.com/problems/xor-after-range-multiplication-queries-i
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
 - Tags: Array, Divide and Conquer, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-08T14:18:59.869Z
+- Solved At: 2026-04-08T14:20:08.731Z
 
 ## Notes
 No notes added.
 
 ## Solution
 ```
-12345678910111213141516class Solution {public:    int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {        const long long MOD = 1e9 + 7;        for (auto& q : queries) {            int l = q[0];            int r = q[1];            int k = q[2];            int v = q[3];            for (int i = l; i <= r; i += k) {                nums[i] = (1LL * nums[i] * v) % MOD;            }        }        int ans = 0;        for (int num : nums) {            ans ^= num;
+1class Solution {
+2public:
+3    int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
+4        const long long MOD = 1e9 + 7;
+5        for (auto& q : queries) {
+6            int l = q[0];
+7            int r = q[1];
+8            int k = q[2];
+9            int v = q[3];
+10            for (int i = l; i <= r; i += k) {
+11                nums[i] = (1LL * nums[i] * v) % MOD;
+12            }
+13        }
+14        int ans = 0;
+15        for (int num : nums) {
+16            ans ^= num;
+17        }
+18        return ans;
+19    }
+20};
 ```
