@@ -8,10 +8,10 @@
 - Tags: N/A
 - Runtime: 78 ms
 - Memory: 100 KB
-- Solved At: 2026-04-07T16:47:10.960Z
+- Solved At: 2026-04-08T14:29:44.994Z
 
 ## Notes
-No notes added.
+Use two vectors for last and jump
 
 ## Solution
 ```
