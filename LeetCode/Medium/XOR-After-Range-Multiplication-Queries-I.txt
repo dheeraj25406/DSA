@@ -1,17 +1,17 @@
 # XOR After Range Multiplication Queries I
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/xor-after-range-multiplication-queries-i
+- URL: https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
 - Tags: Array, Divide and Conquer, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-08T14:20:08.723Z
+- Solved At: 2026-04-08T14:20:50.888Z
 
 ## Notes
-No notes added.
+Just simulated it
 
 ## Solution
 ```
