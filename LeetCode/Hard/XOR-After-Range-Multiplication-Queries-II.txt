@@ -8,7 +8,7 @@
 - Tags: Array, Divide and Conquer
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-09T13:53:52.159Z
+- Solved At: 2026-04-09T13:53:52.151Z
 
 ## Notes
 No notes added.
