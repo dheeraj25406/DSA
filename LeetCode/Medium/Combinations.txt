@@ -7,7 +7,7 @@
 - Status: Accepted
 - Runtime: 35 ms
 - Memory: 5 MB
-- Solved At: 2026-04-11T15:02:03.996Z
+- Solved At: 2026-04-11T15:09:22.029Z
 
 ## Code
 ```
