@@ -1,7 +1,7 @@
 # Two Sum
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/two-sum/
+- URL: https://leetcode.com/problems/two-sum/solutions/
 - Difficulty: Easy
 - Language: Unknown
 - Status: Accepted
