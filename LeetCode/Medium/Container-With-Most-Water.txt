@@ -1,19 +1,35 @@
 # Container With Most Water
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/container-with-most-water/description/
+- URL: https://leetcode.com/problems/container-with-most-water
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
 - Tags: Array, Two Pointers, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-11T21:12:41.340Z
+- Solved At: 2026-04-11T21:12:49.746Z
 
 ## Notes
 No notes added.
 
 ## Solution
 ```
-// No code captured. Use manual push after opening submission.
+1class Solution {
+2public:
+3    int area(int l, int r, vector<int>& height){
+4        return min(height[l], height[r])*(r-l);
+5    }
+6    int maxArea(vector<int>& height) {
+7        int n=height.size();
+8        int l=0,r=n-1;
+9        int A=0;
+10        while (l<r){
+11            A=max(A,area(l,r,height));
+12            if(height[r]<height[l]) r--;
+13            else l++;
+14        }
+15        return A;   
+16    }
+17};
 ```
