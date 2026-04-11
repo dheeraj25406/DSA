@@ -7,10 +7,10 @@
 - Status: Accepted
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-11T20:22:20.864Z
+- Solved At: 2026-04-11T20:22:35.254Z
 
 ## Code
 ```
-#include <bits/stdc++.h>using namespace std;#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)#define int long long signed main(){    fastio();    int t;cin>>t;    while(t--){        int a,b;cin>>a>>b;        int ans=0;         {            int x=a,y=b,need=1,c=0;            int f=1;            while(1){                if(f){                    if(x<need)break;                    x-=need;                }else{                    if(y<need)break;                    y-=need;                }                c++;                need*=2;                f^=1;            }            ans=max(ans,c);        }         {            int x=a,y=b,need=1,c=0;            int f=0;            while(1){                if(f){                    if(x<need)break;                    x-=need;                }else{                    if(y<need)break;                    y-=need;                }                c++;                need*=2;                f^=1;            }            ans=max(ans,c);        }         cout<<max(ans,1LL)<<"
+#include <bits/stdc++.h>using namespace std;#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)#define int long long signed main(){    fastio();    int t;cin>>t;    while(t--){        int n;cin>>n;        vector<int>a(n),b(n),c(n);        for(int i=0;i<n;i++)cin>>a[i];        for(int i=0;i<n;i++)cin>>b[i];        for(int i=0;i<n;i++)cin>>c[i];         int good1=0,good2=0;         for(int d=0;d<n;d++){            bool ok=true;            for(int i=0;i<n;i++){                if(!(a[i] < b[(i+d)%n])){ ok=false; break; }            }            if(ok) good1++;        }         for(int e=0;e<n;e++){            bool ok=true;            for(int j=0;j<n;j++){                if(!(b[j] < c[(j+e)%n])){ ok=false; break; }            }            if(ok) good2++;        }         cout<<good1*good2*n<<"
 ";    }    return 0;}
 ```
