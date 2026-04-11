@@ -1,0 +1,23 @@
+# Partition Equal Subset Sum | Practice | GeeksforGeeks
+
+## 🔗 Problem
+https://www.geeksforgeeks.org/problems/subset-sum-problem2014/0
+
+## 📌 Details
+- Platform: gfg
+- Difficulty: Unknown
+- Language: Unknown
+- Runtime: N/A
+- Memory: N/A
+- Status: Accepted ✅
+
+## 💻 Code
+```
+class Solution {
+  public:
+    bool equalPartition(vector<int>& arr) {
+        // code here
+
+    }
+};
+```
