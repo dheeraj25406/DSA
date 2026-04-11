@@ -5,9 +5,10 @@
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
-- Runtime: N/A
-- Memory: N/A
-- Solved At: 2026-04-11T13:28:13.204Z
+- Runtime: 0
+ms
+- Memory: 9 MB
+- Solved At: 2026-04-11T13:28:44.640Z
 
 ## Code
 ```
