@@ -1,28 +1,15 @@
 # Rotate Array
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/rotate-array/description/
+- URL: https://leetcode.com/problems/rotate-array
 - Difficulty: Medium
 - Language: Unknown
 - Status: Accepted
-- Runtime: N/A
-- Memory: N/A
-- Solved At: 2026-04-11T14:28:13.789Z
+- Runtime: 0 ms
+- Memory: 6 MB
+- Solved At: 2026-04-11T14:53:44.476Z
 
 ## Code
 ```
-class Solution {
-public:
-    void rotate(vector<int>& nums, int k) {
-
-        k%=nums.size();
-        reverse(nums.begin(),nums.end());
-        reverse(nums.begin(),nums.begin()+k);
-        reverse(nums.begin()+k,nums.end());
-            
-            
-        
-        
-    }
-};
+c
 ```
