@@ -1,0 +1,28 @@
+# Best Time to Buy and Sell Stock II
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-11T07:52:54.791Z
+
+## Code
+```
+1class Solution {
+2public:
+3    int maxProfit(vector<int>& prices) {
+4        long long max=0;
+5        for(int i=1;i<prices.size();i++){
+6            if(prices[i]>prices[i-1]){
+7                max+=prices[i]-prices[i-1];
+8            }
+9        }
+10        return max;
+11
+12        
+13    }
+14};
+```
