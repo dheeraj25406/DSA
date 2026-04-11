@@ -1,0 +1,34 @@
+# Candy
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/candy
+- Difficulty: Hard
+- Language: Unknown
+- Status: Accepted
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-11T11:46:00.816Z
+
+## Code
+```
+1class Solution {
+2public:
+3    int candy(vector<int>& ratings) {
+4        int n=ratings.size();
+5        vector<int> candy(n , 1);
+6        for(int i=1;i<n;i++){
+7            if(ratings[i]>ratings[i-1])candy[i]=max(candy[i],candy[i-1]+1);
+8        }
+9        for(int i=n-2;i>=0;i--){
+10            if(ratings[i]>ratings[i+1])candy[i]=max(candy[i],candy[i+1]+1);
+11        }
+12        int sum=0;
+13        for(int j=0;j<candy.size();j++){
+14            sum+=candy[j];
+15
+16        }
+17        return sum;
+18        
+19    }
+20};
+```
