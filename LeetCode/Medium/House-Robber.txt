@@ -1,0 +1,29 @@
+# House Robber
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/house-robber
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-11T11:48:26.315Z
+
+## Code
+```
+1class Solution {
+2public:
+3    int rob(vector<int>& a) {
+4        int n=a.size();
+5        if(n==1)return a[0];
+6        int p=a[0],q=max(a[0],a[1]);
+7        for(int i=2;i<n;i++){
+8            int tmp=max(q,p+a[i]);
+9            p=q;
+10            q=tmp;
+11        }
+12        return q;
+13    }
+14};
+15
+```
