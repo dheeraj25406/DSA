@@ -1,0 +1,48 @@
+# Lexicographical Numbers
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/lexicographical-numbers
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Runtime: 0 ms
+- Memory: 5 MB
+- Solved At: 2026-04-11T15:14:57.902Z
+
+## Code
+```
+1class Solution {
+2public:
+3    vector<int> lexicalOrder(int n) {
+4        vector<int> v;
+5        int i=1;
+6        for(int j=1;j<=n;j++){
+7            v.push_back(i);
+8            if(i*10<=n){
+9                i=i*10;
+10                
+11            }
+12
+13            
+14
+15            else{
+16                
+17                if(i>=n){
+18                    i=i/10;
+19                }
+20                i++;
+21
+22                while(i%10==0){
+23                    i=i/10;
+24                }
+25
+26                
+27            }
+28            
+29            
+30        }
+31        return v;
+32        
+33    }
+34};
+```
