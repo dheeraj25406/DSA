@@ -1,0 +1,15 @@
+# 355749720
+
+- Platform: CodeForces
+- URL: https://codeforces.com/submissions/salaaar
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Runtime: N/A
+- Memory: N/A
+- Solved At: 2026-04-11T19:21:18.123Z
+
+## Code
+```
+#include <bits/stdc++.h>using namespace std;#define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)#define int long long signed main(){    fastio();    int t;cin>>t;    while(t--){        int a,b;cin>>a>>b;        int ans=0;         {            int x=a,y=b,need=1,c=0;            int f=1;            while(1){                if(f){                    if(x<need)break;                    x-=need;                }else{                    if(y<need)break;                    y-=need;                }                c++;                need*=2;                f^=1;            }            ans=max(ans,c);        }         {            int x=a,y=b,need=1,c=0;            int f=0;            while(1){                if(f){                    if(x<need)break;                    x-=need;                }else{                    if(y<need)break;                    y-=need;                }                c++;                need*=2;                f^=1;            }            ans=max(ans,c);        }         cout<<max(ans,1LL)<<"\n";    }    return 0;}
+```
