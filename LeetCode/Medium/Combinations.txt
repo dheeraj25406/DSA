@@ -1,0 +1,15 @@
+# Combinations
+
+- Platform: LeetCode
+- URL: https://leetcode.com/problems/combinations
+- Difficulty: Medium
+- Language: Unknown
+- Status: Accepted
+- Runtime: 35 ms
+- Memory: 5 MB
+- Solved At: 2026-04-11T14:58:26.762Z
+
+## Code
+```
+c
+```
