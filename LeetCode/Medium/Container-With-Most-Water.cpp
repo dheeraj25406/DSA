@@ -7,7 +7,7 @@
 - Status: Accepted
 - Runtime: 0 ms
 - Memory: 5 MB
-- Solved At: 2026-04-11T21:45:54.872Z
+- Solved At: 2026-04-11T21:46:39.189Z
 
 ## Code
 ```cpp
