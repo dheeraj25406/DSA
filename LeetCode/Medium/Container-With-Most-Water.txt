@@ -8,7 +8,7 @@
 - Tags: Array, Two Pointers, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-11T21:12:54.196Z
+- Solved At: 2026-04-11T21:12:44.648Z
 
 ## Notes
 No notes added.
