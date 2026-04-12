@@ -5,9 +5,9 @@
 - Difficulty: Unknown
 - Language: C++
 - Status: Accepted
-- Runtime: N/A
-- Memory: N/A
-- Solved At: 2026-04-12T07:52:21.849Z
+- Runtime: 0 ms
+- Memory: 9.6 MB
+- Solved At: 2026-04-12T08:01:35.635Z
 
 ## Code
 ```cpp
