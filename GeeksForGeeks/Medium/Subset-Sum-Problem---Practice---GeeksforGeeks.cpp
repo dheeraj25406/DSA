@@ -7,7 +7,7 @@
 - Status: Accepted
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-11T21:45:23.228Z
+- Solved At: 2026-04-12T08:15:34.085Z
 
 ## Code
 ```cpp
@@ -27,9 +27,9 @@ class Solution {
                     t[i][j]=t[i-1][j];
                 }
             }
-
-
-
+            
+            
+            
         }
         return t[n][s];
     }
