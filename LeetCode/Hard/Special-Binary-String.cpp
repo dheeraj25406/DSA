@@ -1,13 +1,13 @@
 # Special Binary String
 
 - Platform: LeetCode
-- URL: https://leetcode.com/problems/special-binary-string/submissions/1976165694/
+- URL: https://leetcode.com/problems/special-binary-string/submissions/1925694473/
 - Difficulty: Hard
 - Language: C++
 - Status: Accepted
 - Runtime: 0 ms
 - Memory: 9.6 MB
-- Solved At: 2026-04-12T11:03:25.745Z
+- Solved At: 2026-04-12T11:08:46.311Z
 
 ## Code
 ```cpp
