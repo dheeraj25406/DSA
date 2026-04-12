@@ -1,13 +1,13 @@
 # Unknown Problem
 
 - Platform: Unknown
-- URL: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+- URL: https://codeforces.com/submissions/salaaar
 - Difficulty: Unknown
 - Language: C++
 - Status: Accepted
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-12T05:35:33.435Z
+- Solved At: 2026-04-12T05:35:54.851Z
 
 ## Code
 ```cpp
