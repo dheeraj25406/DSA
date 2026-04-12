@@ -7,7 +7,7 @@
 - Status: Accepted
 - Runtime: 78 ms
 - Memory: 100 KB
-- Solved At: 2026-04-12T13:43:49.389Z
+- Solved At: 2026-04-12T14:14:28.884Z
 
 ## Code
 ```cpp
@@ -26,35 +26,46 @@ typedef long double lld;
 #ifdef ONLINE_JUDGE#define debug(x) #else#define debug(x) cerr << #x <<" ";
  _print(x);
  cerr << endl;
-#endif   signed main() {
+#endif   signed main(){
     fastio();
-    // factCompute(1e6);
-    // sieve(1e7);
-    ll t;
-    cin>>t;
+    int t;
+cin>>t;
     while(t--){
-        int n;
-        cin>>n;
-        vector<long long> a(n);
-        fr(i,0,n)   cin>>a[i];
-        sort(a.begin(),a.end());
-        a.erase(unique(a.begin(),a.end()),a.end());
-        int ans=1;
-        int cur=1;
-        fr(i,1,a.size()){
-            if(a[i]==a[i-1]+1)  cur++;
-            else{
-                ans=max(ans,cur);
-                cur=1;
+        int n,m,h;
+        cin>>n>>m>>h;
+        vector<int>a(n),cur(n,0),lst(n,-1);
+        fr(i,0,n) cin>>a[i];
+        int tmp=0;
+        fr(i,0,n) tmp=max(tmp,a[i]);
+        int mx=tmp;
+        int id=0;
+        fr(i,0,m){
+            int b,c;
+            cin>>b>>c;
+            b--;
+            if(lst[b]!=id){
+                cur[b]=0;
+                lst[b]=id;
+            
+}
+            cur[b]+=c;
+            mx=max(mx,a[b]+cur[b]);
+            if(mx>h){
+                id++;
+                mx=tmp;
             
 }
         
 }
-        ans=max(ans,cur);
-        cout<<ans<<"\n";
+        fr(i,0,n){
+            if(lst[i]==id) cout<<a[i]+cur[i]<<" ";
+            else cout<<a[i]<<" ";
+        
+}
+        cout<<"\n";
     
 }
     return 0;
- 
+
 }
 ```
