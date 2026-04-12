@@ -7,7 +7,7 @@
 - Status: Accepted
 - Runtime: N/A
 - Memory: N/A
-- Solved At: 2026-04-12T08:02:02.164Z
+- Solved At: 2026-04-12T10:29:42.623Z
 
 ## Code
 ```cpp
