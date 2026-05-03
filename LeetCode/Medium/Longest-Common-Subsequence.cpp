@@ -8,7 +8,7 @@
 - Runtime: 0 ms
 - Memory: 27.70
 MB
-- Solved At: 2026-05-03T07:16:50.793Z
+- Solved At: 2026-05-03T07:16:55.433Z
 
 ## Code
 ```cpp
