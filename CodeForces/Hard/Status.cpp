@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Language: C++
 - Status: Accepted
-- Runtime: 15 ms
+- Runtime: 31 ms
 - Memory: 0 KB
-- Solved At: 2026-05-09T13:04:55.533Z
+- Solved At: 2026-05-09T13:41:39.878Z
 
 ## Code
 ```cpp
@@ -19,10 +19,10 @@ using namespace std;
      int t;
     cin>>t;
      while(t--){
-        int x,y;
+        long long x,y;
         cin>>x>>y;
-         if(x%2==1 && y%2==1)   cout<<"NO\n";
-        else    cout<<"YES\n";
+         if(y/x>=3)cout<<"YES\n";
+        else cout<<"NO\n";
     
 }
      return 0;
