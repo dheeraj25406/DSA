@@ -5,11 +5,11 @@
 - Difficulty: Medium
 - Language: C++
 - Status: Accepted
-- Runtime: 0
+- Runtime: 674
 ms
-- Memory: 0.00
+- Memory: 271.95
 MB
-- Solved At: 2026-05-08T09:55:01.484Z
+- Solved At: 2026-05-09T13:03:52.387Z
 
 ## Code
 ```cpp
